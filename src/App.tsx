@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { createGlobalStyle } from "styled-components";
-import { FaBullhorn, FaEnvelope } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const GlobalStyle = createGlobalStyle`
@@ -83,7 +83,7 @@ const App: React.FC = () => {
       <GlobalStyle />
       <Navbar>
         <Logo>
-          <FaBullhorn /> Real ITInnovation Qro
+           Real ITInnovation Qro
         </Logo>
         <NavLinks>
           <a href="#inicio">Inicio</a>
