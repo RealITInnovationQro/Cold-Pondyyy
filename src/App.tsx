@@ -82,9 +82,7 @@ const App: React.FC = () => {
     <Wrapper>
       <GlobalStyle />
       <Navbar>
-        <Logo>
-           Real ITInnovation Qro
-        </Logo>
+           <Logo>Real ITInnovation Qro</Logo>
         <NavLinks>
           <a href="#inicio">Inicio</a>
           <a href="#denuncias">Denuncias</a>
